@@ -1,0 +1,6 @@
+C:\Users\Ramone Nelson\Engineering45\Week2\Day4\Week2Day4HW\Week2Day4HWSpelunky\Week2Day4HWSpelunky\bin\Debug\Week2Day4HWSpelunky.exe.config
+C:\Users\Ramone Nelson\Engineering45\Week2\Day4\Week2Day4HW\Week2Day4HWSpelunky\Week2Day4HWSpelunky\bin\Debug\Week2Day4HWSpelunky.exe
+C:\Users\Ramone Nelson\Engineering45\Week2\Day4\Week2Day4HW\Week2Day4HWSpelunky\Week2Day4HWSpelunky\bin\Debug\Week2Day4HWSpelunky.pdb
+C:\Users\Ramone Nelson\Engineering45\Week2\Day4\Week2Day4HW\Week2Day4HWSpelunky\Week2Day4HWSpelunky\obj\Debug\Week2Day4HWSpelunky.csprojAssemblyReference.cache
+C:\Users\Ramone Nelson\Engineering45\Week2\Day4\Week2Day4HW\Week2Day4HWSpelunky\Week2Day4HWSpelunky\obj\Debug\Week2Day4HWSpelunky.exe
+C:\Users\Ramone Nelson\Engineering45\Week2\Day4\Week2Day4HW\Week2Day4HWSpelunky\Week2Day4HWSpelunky\obj\Debug\Week2Day4HWSpelunky.pdb

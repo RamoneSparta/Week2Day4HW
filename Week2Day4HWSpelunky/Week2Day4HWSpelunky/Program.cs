@@ -407,6 +407,8 @@ namespace Week2Day4HWSpelunky
                 weaponsDictionary.Add(count,obj);
                 count++;
             }
+
+            Console.WriteLine(weaponsDictionary);
         }
 
         public Weapons(int positionInArray)
@@ -569,6 +571,15 @@ namespace Week2Day4HWSpelunky
                 new Shopkeeper(5),
 
             };
+            Hashtable ht = new Hashtable();
+
+            ht.Add(1,"Baseball bat");
+            ht.Add(2,"Broken bottle");
+            ht.Add(3, "Chair");
+
+            Weapons weaponsHT = new Weapons(ht);
+            Console.WriteLine(weaponsHT);
+
 
             firstLevel.PrintMethod();
             firstWeapon.PrintMethod();
