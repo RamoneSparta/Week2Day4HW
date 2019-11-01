@@ -388,6 +388,7 @@ namespace Week2Day4HWSpelunky
     class Weapons : Items
     {
         private int damage = 1;
+        // The different attributes to test different ways of working with variables
         private string[] listOfWeapons = { "Rock", "Sword", "Gun" };
         private Hashtable tableOfWeapons = new Hashtable();
         private Dictionary<int, object> weaponsDictionary = new Dictionary<int, object>();
@@ -399,6 +400,7 @@ namespace Week2Day4HWSpelunky
             tableOfWeapons.Add(3, "Gun");
         }
         
+        // This Constructor converts a Hashtable<Objects> into a Dictionary
         public Weapons (Hashtable weaponTable)
         {
             int count = 1;
@@ -416,9 +418,9 @@ namespace Week2Day4HWSpelunky
             string currrentWeapon = listOfWeapons[positionInArray];
         }
 
-        public Weapons(int positionInArray, int damage)
+        public Weapons(int positionInArray, int damage) : base(positionInArray)
         {
-            string currrentWeapon = listOfWeapons[positionInArray];
+            //string currrentWeapon = listOfWeapons[positionInArray];
             this.damage = damage;
         }
 
@@ -558,11 +560,14 @@ namespace Week2Day4HWSpelunky
         {
             Console.WriteLine("Hello Player!");
 
+            // Initialising some objects
             Player adventurer = new Player();
             Levels firstLevel = new Mines();
             Weapons firstWeapon = new Weapons(1);
             Weapons secondWeapon = new Weapons(2, 5);
             Shopkeeper shopkeeper = new Shopkeeper();
+
+            // Enemy array, Testing the Constructors for the Parent Class
             Enemies[] enemies =
             {
                 new Cavemen(),
@@ -571,6 +576,8 @@ namespace Week2Day4HWSpelunky
                 new Shopkeeper(5),
 
             };
+
+            // Testing the hashtable Constructor for weapons
             Hashtable ht = new Hashtable();
 
             ht.Add(1,"Baseball bat");
@@ -580,7 +587,7 @@ namespace Week2Day4HWSpelunky
             Weapons weaponsHT = new Weapons(ht);
             Console.WriteLine(weaponsHT);
 
-
+            // Prininting methods
             firstLevel.PrintMethod();
             firstWeapon.PrintMethod();
             secondWeapon.PrintMethod();
